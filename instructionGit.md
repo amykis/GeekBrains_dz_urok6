@@ -44,3 +44,7 @@ git checkout new_branch
 ```sh
 git merge new_branch
 ```
+12. Показать изменения в файле.
+```sh
+git diff
+```
