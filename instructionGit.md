@@ -52,3 +52,7 @@ git diff
 ```sh
 git log --oneline --graph
 ```
+13. Удаление ветки
+```sh
+git branch -d <name_branch>
+```
