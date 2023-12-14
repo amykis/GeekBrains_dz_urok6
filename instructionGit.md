@@ -32,3 +32,11 @@ git checkout
 ```sh
 git branch
 ```
+9. Создать новую ветку
+```sh
+git branch new_branch
+```
+10. Перейти в указанную ветку
+```sh
+git checkout new_branch
+```
