@@ -48,3 +48,7 @@ git merge new_branch
 ```sh
 git diff
 ```
+12. Показать дерево веток.
+```sh
+git log --oneline --graph
+```
