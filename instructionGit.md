@@ -129,3 +129,7 @@ git branch -M main
 ```sh
 git push --set-upstream origin main
 ```
+* Иногда при выполнении этой команды возникает ошибка о том, что привязан другой репозиторий с неправильным url. Исправить url поможет команда
+```sh
+remote set-url origin <правильный url>
+```
