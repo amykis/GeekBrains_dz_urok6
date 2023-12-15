@@ -125,12 +125,7 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 git branch -M main
 ```
 
-5. Копируем информацию из локального GITa на GitHub, подставляя ссылку на свой репозиторий. Пример: 
+5. Делаем push
 ```sh
-git remote add origin https://github.com/amykis/GeekBrains_dz_urok6.git
-```
-
-6. Делаем push
-```sh
-git push -u origin main
+git push --set-upstream origin main
 ```
