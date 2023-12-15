@@ -74,12 +74,11 @@ git diff
 
 ## Команды для pull request
 
-1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория.
-<https://github.com/amykis/GeekBrains_dz_urok6.git>
+1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
 
 2. Выполняем команду клонирования из своей fork-копии
 ```sh
-git clone git@github.com:*YOURE_GITHUB*/GeekBrains_dz_urok6.git
+git clone git@github.com:*YOURE_GITHUB*/version_control.git
 ```
 3. Создаем новую ветку и вносим необходимые изменения в файл
 ```sh
@@ -111,3 +110,27 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 # Как подружить git с github под Windows 10
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
+
+## Создание своего репозитория
+
+1. Переходим в свои репозитории через иконку профиля.
+
+2. Нажимаем кнопку New, для создания собственного репозитория и даем ему название.
+
+3. Переходим в VS code и открываем папку, которую необходимо добавить в GitHub/
+
+4. Проверяем status, если все изменения сохранены, то выполняем команду по переименованию ветки в "main"
+. Делаем push  
+```sh
+git branch -м main
+```
+
+5. Копируем информацию из локального GITa на GitHub, подставляя ссылку на свой репозиторий. Пример: 
+```sh
+git remote add origin https://github.com/amykis/GeekBrains_dz_urok6.git
+```
+
+6. Делаем push
+```sh
+git push -u origin main
+```
