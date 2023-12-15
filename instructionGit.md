@@ -122,7 +122,7 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 4. Проверяем status, если все изменения сохранены, то выполняем команду по переименованию ветки в "main"
 . Делаем push  
 ```sh
-git branch -м main
+git branch -M main
 ```
 
 5. Копируем информацию из локального GITa на GitHub, подставляя ссылку на свой репозиторий. Пример: 
